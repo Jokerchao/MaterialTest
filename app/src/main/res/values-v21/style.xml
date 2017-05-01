@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style
+        name="FruitActivityTheme" parent="AppTheme">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!--指定了一个主题专门给FruitActivity来用，parent是AppTheme,然后后面的transparent让它读取父主题的颜色-->
+
+    </style>
+</resources>

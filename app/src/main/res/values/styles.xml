@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        //Bar的标题的浅色部分
+        <item name="colorPrimary">@color/colorPrimary</item>
+        //Bar的标题深色部分
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        //控件选中状态的颜色
+        <item name="colorAccent">@color/colorAccent</item>
+
+        //另外还有textColorPrimary(Bar字体的颜色),windowBackground(整个背景的颜色),navigationBarColor(下浮动栏的颜色)
+    </style>
+    <style name="FruitActivityTheme" parent="AppTheme"></style>
+
+</resources>
